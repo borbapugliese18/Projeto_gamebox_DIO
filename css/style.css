@@ -1,0 +1,166 @@
+:root{
+    --vermelho:#b63d43;
+    --preto:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Elementos base */
+body{
+    background-color: var(--preto);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#fff;
+}
+
+header{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0),rgb(0, 0, 0) 100%),linear-gradient( rgba(0, 0, 0, 0),rgba(0, 0, 0, 0) 100%),url('/img/godcapafullhd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header .container_header{
+    display: flex;
+    flex-direction: row; 
+    /* flex-direction row já apareceria pelo modo default do display flex (PLEONASMO) */
+    align-items: center;
+    background-color: #14141452;
+    position: fixed;
+    width: 100%;
+      
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    margin-left: 40px;
+    margin-right: 80px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgb(223, 223, 223);
+    margin-right: 25px;
+    font-size: 18px;
+}
+
+header nav a:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+.fa-house{
+    font-size: 25px;
+    transition: 0.2s ease all;
+}
+
+.fa-gamepad{
+    font-size: 25px;
+    transition: 0.2s ease all;
+    padding-left: 15px;
+}
+
+.fa-bars{
+    font-size: 26px;
+    transition: 0.2s ease all;
+}
+
+.icone_settings{
+    display: inline;
+    right: 0;
+    position: absolute;  
+}
+
+/* Jogo principal */
+.jogo_principal{
+    font-size: 16px;
+    
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.jogo_principal .descricao{
+    margin-bottom: 50px;
+    
+    margin-top: 10px;
+}
+
+.container_main{
+    padding-left: 20px;
+    
+}
+
+.jogo_principal .titulo{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 15%;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.80);
+    border:none;
+    color: #fff;
+    padding: 15px 30px;
+    margin-right: 12px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+
+.fa-play{
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+.fa-circle-info{
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+.botao:hover{
+    background-color: #fff;
+    color: black;
+}
+
+/* Carrosel */
+.box_jogo{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel_jogos{
+    background-color: #0c0c0c;
+}
+
+/* leia_mais */
+#mais{
+    display: none;
+}
+
+#btnLeiaMais{
+    background-color: rgb(255, 255, 255);
+    border:none;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    margin-top: 1px;
+    padding: 2px 6px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.2s ease all;
+}
+
+#btnLeiaMais:hover{
+    background-color:#000000a2;
+    color:#fff;
+}
+
+
+   

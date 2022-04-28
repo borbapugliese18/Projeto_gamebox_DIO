@@ -1,0 +1,148 @@
+
+@media screen and (max-width:1000px){
+    header .container_header{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
+    .fa-house{
+        font-size: 0px;
+    } 
+    .fa-gamepad{
+        font-size: 0px;
+    }
+    .icone_settings{
+        position: absolute;
+        text-align: center;
+        margin-top:-50px;    
+    }
+
+    header .container_header{
+        height: 65px;   
+    } 
+
+    .container_main{
+        margin-top: 120px;
+    } 
+
+    .titulo{
+        font-size: 50px;
+    }
+
+    .descricao{
+        width: 50%;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width:1000px){
+    .titulo{
+        font-size: 60px;
+    }
+    .descricao{
+        font-size: 20px;
+        width: 50%;
+    }
+   
+}
+@media screen and (min-width:1440px){
+    .botao{
+        margin-top: 5px;
+        width: 240px;
+        font-size: 14px;
+    }
+    
+    .fa-play{
+        font-size: 17px;
+        margin-right: 8px;
+    }
+    
+    .fa-circle-info{
+        font-size: 17px;
+        margin-right: 8px;
+    }
+
+    .descricao{
+        width: 80%;
+    }
+  
+}
+
+@media screen and (max-width:334px) {
+    .titulo{
+        width:40%
+    }
+}
+
+@media screen and (max-width:650px){
+    .descricao{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:2000px){
+    .titulo_jogos h1{
+        font-size: 40px;
+        margin-top: 20px; 
+        margin-left: 10%;  
+    }
+}
+
+@media screen and (max-width:2000px){
+    .titulo_jogos h1{
+        font-size: 30px;
+        margin-top: 20px; 
+        margin-left: 10%;  
+    }
+}
+
+
+
+
+/* IMAGEM_PRINCIPAL */
+@media screen and (max-width:1005px) {
+        header{
+            background: linear-gradient(to left, rgba(0, 0, 0, 0.075),rgba(0, 0, 0, 0.705) 100%),url('/img/godmobile2.jpg');
+    }
+}
+
+@media screen and (max-width:900px) {
+    header{
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.075),rgba(0, 0, 0, 0.705) 100%),url('/img/godmobile3.jpg');
+}
+}
+
+@media screen and (max-width:732px) {
+    header{
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.075),rgba(0, 0, 0, 0.705) 100%),url('/img/godsmall.jpg');
+}
+}
+
+@media screen and (max-width:674px) {
+    header{
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.075),rgba(0, 0, 0, 0.705) 100%),url('/img/godsmall2.jpg');
+}
+}
+
+@media screen and (max-width:600px) {
+    header{
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.075),rgba(0, 0, 0, 0.705) 100%),url('/img/godsmall3.jpg');
+}
+}
+
+@media screen and (max-width:500px) {
+    header{
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.075),rgba(0, 0, 0, 0.705) 100%),url('/img/godsmall4.jpg');
+}
+}
+
+
+
+
+   
