@@ -108,37 +108,37 @@
 /* IMAGEM_PRINCIPAL */
 @media screen and (max-width:1005px) {
         header{
-            background: linear-gradient(to left, rgba(0, 0, 0, 0.075),rgba(0, 0, 0, 0.705) 100%),url('/img/godmobile2.jpg');
+            background: linear-gradient(to left, rgba(0, 0, 0, 0.075),rgba(0, 0, 0, 0.705) 100%),url('../img/godmobile2.jpg');
     }
 }
 
 @media screen and (max-width:900px) {
     header{
-        background: linear-gradient(to left, rgba(0, 0, 0, 0.075),rgba(0, 0, 0, 0.705) 100%),url('/img/godmobile3.jpg');
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.075),rgba(0, 0, 0, 0.705) 100%),url('../img/godmobile3.jpg');
 }
 }
 
 @media screen and (max-width:732px) {
     header{
-        background: linear-gradient(to left, rgba(0, 0, 0, 0.075),rgba(0, 0, 0, 0.705) 100%),url('/img/godsmall.jpg');
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.075),rgba(0, 0, 0, 0.705) 100%),url('../img/godsmall.jpg');
 }
 }
 
 @media screen and (max-width:674px) {
     header{
-        background: linear-gradient(to left, rgba(0, 0, 0, 0.075),rgba(0, 0, 0, 0.705) 100%),url('/img/godsmall2.jpg');
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.075),rgba(0, 0, 0, 0.705) 100%),url('../img/godsmall2.jpg');
 }
 }
 
 @media screen and (max-width:600px) {
     header{
-        background: linear-gradient(to left, rgba(0, 0, 0, 0.075),rgba(0, 0, 0, 0.705) 100%),url('/img/godsmall3.jpg');
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.075),rgba(0, 0, 0, 0.705) 100%),url('../img/godsmall3.jpg');
 }
 }
 
 @media screen and (max-width:500px) {
     header{
-        background: linear-gradient(to left, rgba(0, 0, 0, 0.075),rgba(0, 0, 0, 0.705) 100%),url('/img/godsmall4.jpg');
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.075),rgba(0, 0, 0, 0.705) 100%),url('../img/godsmall4.jpg');
 }
 }
 

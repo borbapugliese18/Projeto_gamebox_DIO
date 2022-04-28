@@ -1,6 +1,6 @@
 :root{
     --vermelho:#b63d43;
-    --preto:#141414;
+    --preto:#0c0c0c;
 }
 
 *{
@@ -26,8 +26,8 @@ header .container_header{
     flex-direction: row; 
     /* flex-direction row já apareceria pelo modo default do display flex (PLEONASMO) */
     align-items: center;
-    background-color: #14141452;
-    position: fixed;
+    background-color: #08080852;
+    position: relative;
     width: 100%;
       
 }
@@ -159,7 +159,7 @@ header nav a:hover{
 
 #btnLeiaMais:hover{
     background-color:#000000a2;
-    color:#fff;
+    color:rgb(255, 255, 255);
 }
 
 .titulo_jogos{
