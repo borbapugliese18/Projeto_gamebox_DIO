@@ -11,12 +11,12 @@
 /* Elementos base */
 body{
     background-color: var(--preto);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#fff;
 }
 
 header{
-    background: linear-gradient(to left, rgba(0, 0, 0, 0),rgb(0, 0, 0) 100%),linear-gradient( rgba(0, 0, 0, 0),rgba(0, 0, 0, 0) 100%),url('/img/godcapafullhd.jpg');
+    background: linear-gradient(to left, rgba(0, 0, 0, 0),rgb(0, 0, 0) 100%),linear-gradient( rgba(0, 0, 0, 0),rgba(0, 0, 0, 0) 100%),url("../img/godcapafullhd.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -160,6 +160,10 @@ header nav a:hover{
 #btnLeiaMais:hover{
     background-color:#000000a2;
     color:#fff;
+}
+
+.titulo_jogos{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
