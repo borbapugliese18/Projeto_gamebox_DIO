@@ -3,7 +3,7 @@ Interface do criado site GameBox replicando a interface do NETFLIX, com mudança
 
 
 
-## Metodologia :pencil::
+## Observações :pencil::
 
 - Uso das ferramentas do jQuery como o plugin Owl Carousel. 
 - Código de JavaScript extraído apenas para uso de função para o botão de "Read more" e plugin Owl Carousel.
