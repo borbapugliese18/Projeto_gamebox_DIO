@@ -1,6 +1,8 @@
 # Projeto interface GameBox :computer::
 Interface do criado site GameBox replicando a interface do NETFLIX, com mudanças em meio à criatividade, para aprendizado de novos comandos e responsividade sem frameworks.
 
+Link: https://borbapugliese18.github.io/Projeto_gamebox_DIO/
+
 
 
 ## Observações :pencil::
