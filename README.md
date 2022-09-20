@@ -1,9 +1,11 @@
 # Projeto interface GameBox :computer::
-Interface do criado site GameBox replicando a interface do NETFLIX, com mudanças em meio à criatividade, para aprendizado de novos comandos e responsividade sem frameworks.
+Interface do site GameBox replicando a interface do NETFLIX, com mudanças em meio à criatividade, para aprendizado de novos comandos e responsividade sem frameworks.
+
+Link: https://borbapugliese18.github.io/Projeto_gamebox_DIO/
 
 
 
-## Metodologia :pencil::
+## Observações :pencil::
 
 - Uso das ferramentas do jQuery como o plugin Owl Carousel. 
 - Código de JavaScript extraído apenas para uso de função para o botão de "Read more" e plugin Owl Carousel.
